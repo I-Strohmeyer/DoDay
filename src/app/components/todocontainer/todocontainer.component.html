@@ -1,0 +1,10 @@
+<div class="todowrapper">
+    <app-navi></app-navi>
+    <app-hero></app-hero>
+    <app-newtask (addTodo)="addTodo($event)"></app-newtask>
+    <app-todoitem 
+        *ngFor="let todo of todos"
+        [todo]="todo"
+        (deleteTodo)="deleteTodo($event)"
+        ></app-todoitem>
+</div>

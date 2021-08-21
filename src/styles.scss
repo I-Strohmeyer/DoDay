@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #252525;
+}
+
+.purple {
+    color: #7512F4;
+}
+
+input, button {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}

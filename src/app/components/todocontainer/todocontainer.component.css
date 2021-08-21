@@ -1,0 +1,8 @@
+.todowrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    color: black;
+    padding: 40px;
+    border-radius: 8px;
+}

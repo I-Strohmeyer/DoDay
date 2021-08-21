@@ -1,0 +1,136 @@
+
+.itemwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBFBFB;
+    height: 60px;
+    margin-bottom: 28px;
+    transition: all 150ms ease-out;
+}
+
+.itemwrapper:hover {
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
+}
+
+.itemtext {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.deletebtn {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    transition: padding 150ms ease-out;
+}
+
+.deletebtn:hover {
+    padding: 5px;
+}
+
+.deletebtn:active {
+    padding: 0px;
+}
+
+.inner-dbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.deletebtn:hover .inner-dbutton {
+    background: #E12D45;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.deletebtn:hover .removeitem {
+    stroke: white
+}
+
+.removeitem {
+    stroke: #E12D45;
+    background-color: none;
+}
+
+.svg-text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.svg-check {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: padding 150ms ease-out;
+}
+
+.svg-check:hover {
+    padding: 5px;
+}
+
+.svg-check:active {
+    padding: 0;
+}
+
+.inner-checkicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.svg-check:hover .inner-checkicon {
+    background: #7512F4;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.svg-check:hover .svg-check-line {
+    stroke: white
+}
+
+.hidden {
+    display: none;
+}
+
+.itemwrapper:hover .hidden {
+    display: inline-block;
+}
+
+.checkmark-path {
+    stroke: #7512F4
+}
+
+.svg-check:hover .checkmark-path {
+    stroke: white
+}
+
+
+.is-complete {
+    text-decoration: line-through;
+    /* background-color: yellowgreen; */
+    /* color: #757575; */
+    color: #7512F4;
+    /* background: red; */
+}
+
+.is-complete:hover {
+    box-shadow: none;
+}
+
