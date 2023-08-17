@@ -1,8 +1,8 @@
 Hosted version: [Doday](https://i-strohmeyer.github.io/DoDay/)
 
-# Doday
+# Doday 🧾✔️
 
-(WIP) To-Do-List 🧾✔️
+(WIP) To-Do-List 
 
 Add todos and do your todos and remove your todos afterwards. Rinse and repeat. 
 
